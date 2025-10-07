@@ -1,0 +1,26 @@
+{
+  "name": "lesson14_deploy-v2",
+  "version": "1.0.0",
+  "description": "lesson 14 deploy",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheremetkyryl/lesson14_deploy-v2.git"
+  },
+  "keywords": [],
+  "author": "Sheremet Kyryl <kruisher@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheremetkyryl/lesson14_deploy-v2/issues"
+  },
+  "homepage": "https://github.com/sheremetkyryl/lesson14_deploy-v2#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.16.0"
+  }
+}
